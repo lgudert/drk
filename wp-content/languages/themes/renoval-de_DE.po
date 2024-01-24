@@ -1,0 +1,922 @@
+# Translation of Themes - Renoval in German
+# This file is distributed under the same license as the Themes - Renoval package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-12 12:30:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Renoval\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Renoval - Construction And Architecture Theme is designed specially for Construction and Repairing Services. Whether you wish to build a site for your construction company, architects studio, property development firm, real estate & business websites. View the demo of Renoval Pro https://www.nayrathemes.com/demo/pro/?theme=renoval"
+msgstr "Das Renoval - Construction And Architecture Theme wurde speziell für Bauunternehmen und Reparaturdienste entwickelt. Egal, ob du eine Website für dein Bauunternehmen, dein Architekturbüro, dein Bauträgerunternehmen, deine Immobilien- oder Geschäftswebsite erstellen möchtest. Sieh dir die Demo von Renoval Pro an: https://www.nayrathemes.com/demo/pro/?theme=renoval"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Renoval"
+msgstr "Renoval"
+
+#: inc/extras.php:923
+msgid "email@example.com"
+msgstr "email@example.com"
+
+#: inc/extras.php:847
+msgid "Are you renovating your home?"
+msgstr "Sie renovieren Ihr Haus?"
+
+#: inc/extras.php:723
+msgid "Doesn’t make any sense to me, also interested"
+msgstr "Ergibt für mich keinen Sinn, auch nicht für Sie"
+
+#: inc/customizer/renoval-blog.php:24 inc/customizer/renoval-header.php:37
+msgid "Click Here"
+msgstr "Hier klicken"
+
+#: inc/customizer/renoval-blog.php:23 inc/customizer/renoval-header.php:36
+msgid "Section Documentation"
+msgstr "Abschnitt Dokumentation"
+
+#: woocommerce/content-product.php:53
+msgid "out of 5"
+msgstr "von 5"
+
+#: woocommerce/content-product.php:53
+msgid "Rated %s out of 5"
+msgstr "Bewertet mit %s von 5"
+
+#: woocommerce/content-product.php:34
+msgid "Sale"
+msgstr "Angebot"
+
+#: woocommerce/cart/mini-cart.php:104 woocommerce/cart/mini-cart.php:218
+msgid "No products in the cart."
+msgstr "Keine Produkte im Warenkorb."
+
+#: woocommerce/cart/mini-cart.php:98 woocommerce/cart/mini-cart.php:212
+msgid "Checkout"
+msgstr "Kasse"
+
+#: woocommerce/cart/mini-cart.php:57 woocommerce/cart/mini-cart.php:171
+msgid "Remove this item"
+msgstr "Dieses Element entfernen"
+
+#: woocommerce/cart/mini-cart.php:32 woocommerce/cart/mini-cart.php:146
+msgid "Total:"
+msgstr "Summe:"
+
+#. Template Name of the theme
+msgid "Fullwidth Page"
+msgstr "Seite in voller Breite"
+
+#. Template Name of the theme
+msgid "Homepage"
+msgstr "Homepage"
+
+#: template-parts/sections/section-header.php:83
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: template-parts/sections/section-breadcrumb.php:60
+msgid "Pricing Categories: %s"
+msgstr "Preiskategorien: %s"
+
+#: template-parts/sections/section-breadcrumb.php:56
+msgid "Portfolio Categories: %s"
+msgstr "Portfolio-Kategorien: %s"
+
+#: template-parts/sections/section-breadcrumb.php:52
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: template-parts/sections/section-breadcrumb.php:48
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: template-parts/sections/section-breadcrumb.php:44
+msgid "Tag Archives: %s"
+msgstr "Schlagwort-Archiv: %s"
+
+#: template-parts/sections/section-breadcrumb.php:40
+msgid "Category Archives: %s"
+msgstr "Kategorie-Archiv: %s"
+
+#: template-parts/sections/section-breadcrumb.php:36
+msgid "Yearly Archives: %s"
+msgstr "Archiv für das Jahr: %s"
+
+#: template-parts/sections/section-breadcrumb.php:32
+msgid "Monthly Archives: %s"
+msgstr "Archiv für den Monat: %s"
+
+#: template-parts/sections/section-breadcrumb.php:28
+msgid "Daily Archives: %s"
+msgstr "Archiv für den Tag: %s"
+
+#: template-parts/content/content.php:38
+msgid "Pages:"
+msgstr "Seiten:"
+
+#. translators: %s: Name of current post.
+#: template-parts/content/content.php:33
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&rarr;</span> weiterlesen"
+
+#: template-parts/content/content-page.php:57
+#: template-parts/content/content-search.php:58
+#: template-parts/sections/section-blog.php:86
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: template-parts/content/content-page.php:33
+#: template-parts/content/content-search.php:34
+#: template-parts/sections/section-blog.php:68
+msgid "Comment"
+msgstr "Kommentar"
+
+#: template-parts/content/content-none.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft eine Suche."
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Es gibt keine passenden Suchergebnisse. Bitte versuche es mit anderen Suchbegriffen."
+
+#: template-parts/content/content-none.php:14
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:70
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#. translators: %s: post title
+#: inc/template-tags.php:63
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Schreib einen Kommentar<span class=\"screen-reader-text\"> zu %s</span>"
+
+#: inc/template-tags.php:56
+msgid "Tagged %1$s"
+msgstr "Markiert mit %1$s"
+
+#: inc/template-tags.php:50
+msgid "Posted in %1$s"
+msgstr "Veröffentlicht in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:48 inc/template-tags.php:54
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#: inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Veröffentlicht am %s"
+
+#: inc/sidebar/sidebar.php:70
+msgid "This Widget area for WooCommerce Widget"
+msgstr "Dieser Widget-Bereich für WooCommerce-Widget"
+
+#: inc/sidebar/sidebar.php:68
+msgid "WooCommerce Widget Area"
+msgstr "WooCommerce-Widget-Bereich"
+
+#: inc/sidebar/sidebar.php:60
+msgid "The Footer Layout Right"
+msgstr "Footer-Layout Rechts"
+
+#: inc/sidebar/sidebar.php:58
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: inc/sidebar/sidebar.php:50
+msgid "The Footer Layout Right Middle"
+msgstr "Footer-Layout Rechts Mitte"
+
+#: inc/sidebar/sidebar.php:48
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: inc/sidebar/sidebar.php:40
+msgid "The Footer Layout Left Middle"
+msgstr "Footer-Layout Links Mitte"
+
+#: inc/sidebar/sidebar.php:38
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: inc/sidebar/sidebar.php:30
+msgid "The Footer Layout Left"
+msgstr "The Footer Layout Left"
+
+#: inc/sidebar/sidebar.php:28
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: inc/sidebar/sidebar.php:20
+msgid "The Primary Widget Area"
+msgstr "Der primäre Widget-Bereich"
+
+#: inc/sidebar/sidebar.php:18
+msgid "Sidebar Widget Area"
+msgstr "Seitenleiste-Widget-Bereich"
+
+#: inc/extras.php:1047
+msgid "Policy"
+msgstr "Geschäftsbedingungen"
+
+#: inc/extras.php:1042
+msgid "Help Desk"
+msgstr "Helpdesk"
+
+#: inc/extras.php:1037
+msgid "Careers"
+msgstr "Karriere"
+
+#: inc/extras.php:984
+msgid "Sun"
+msgstr "So"
+
+#: inc/extras.php:979
+msgid "Sat"
+msgstr "Sa"
+
+#: inc/extras.php:974
+msgid "Fri"
+msgstr "Fr"
+
+#: inc/extras.php:969
+msgid "Thu"
+msgstr "Do"
+
+#: inc/extras.php:964
+msgid "Wed"
+msgstr "Mi"
+
+#: inc/extras.php:959
+msgid "Tue"
+msgstr "Di"
+
+#: inc/extras.php:954
+msgid "Mon"
+msgstr "Mo"
+
+#: inc/extras.php:935
+msgid "09.00-18.00"
+msgstr "09.00-18.00"
+
+#: inc/extras.php:929
+msgid "14/A Ping Tower Road"
+msgstr "14/A Ping Tower Road"
+
+#: inc/extras.php:917
+msgid "70 975 975 70"
+msgstr "70 975 975 70"
+
+#: inc/extras.php:896
+msgid "France"
+msgstr "Frankreich"
+
+#: inc/extras.php:889
+msgid "Russia"
+msgstr "Russland"
+
+#: inc/extras.php:882
+msgid "Madrid, Spain"
+msgstr "Madrid, Spain"
+
+#: inc/extras.php:875
+msgid "Munich, Germany"
+msgstr "München, Deutschland"
+
+#: inc/extras.php:869 inc/extras.php:876 inc/extras.php:883 inc/extras.php:890
+#: inc/extras.php:897
+msgid "+01-2345-6789"
+msgstr "+01-2345-6789"
+
+#: inc/extras.php:868
+msgid "United States"
+msgstr "United States"
+
+#: inc/extras.php:842
+msgid "Start Planning New Construction?"
+msgstr "Planst du einen Neubau?"
+
+#: inc/extras.php:821
+msgid "Live Support"
+msgstr "Live-Support"
+
+#: inc/extras.php:816 inc/extras.php:823
+msgid "Start"
+msgstr "Start"
+
+#: inc/extras.php:814
+msgid "Zoom Meeting"
+msgstr "Zoom-Meeting"
+
+#: inc/extras.php:809
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: inc/extras.php:807
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/extras.php:802
+msgid "Click"
+msgstr "Klick"
+
+#: inc/extras.php:801 inc/extras.php:808 inc/extras.php:815 inc/extras.php:822
+msgid "Find a brief answer to your short question here"
+msgstr "Hier findest du eine kurze Antwort auf deine Frage"
+
+#: inc/extras.php:800
+msgid "Skype Call"
+msgstr "Skype-Anruf"
+
+#: inc/extras.php:779
+msgid "Web Development"
+msgstr "Web-Entwicklung"
+
+#: inc/extras.php:772
+msgid "Social Media"
+msgstr "Soziale Medien"
+
+#: inc/extras.php:765
+msgid "Web Designing"
+msgstr "Webdesign"
+
+#: inc/extras.php:758
+msgid "Marketing Analysis"
+msgstr "Marketing-Analyse"
+
+#: inc/extras.php:751
+msgid "Business Marketing"
+msgstr "Business Marketing"
+
+#: inc/extras.php:745 inc/extras.php:752 inc/extras.php:759 inc/extras.php:766
+#: inc/extras.php:773 inc/extras.php:780
+msgid "Lorem Ipsum is simply dummy text"
+msgstr "Lorem Ipsum ist nur ein Beispieltext"
+
+#: inc/extras.php:744
+msgid "Marketing Agency"
+msgstr "Marketing-Agentur"
+
+#: 404.php:27
+msgid "A work is Always Interested"
+msgstr "Diese Arbeit ist immer interessant"
+
+#: inc/extras.php:718 inc/extras.php:724
+msgid "Lorem ipsum dolor sit amet, conse adipisicing elit incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, conse adipisicing elit incididunt ut labore et dolore magna aliqua."
+
+#: inc/extras.php:717
+msgid "Civil & Environmental Services"
+msgstr "Dienstleistungen Bauwesen und Umwelt"
+
+#: inc/extras.php:377 inc/extras.php:447 inc/extras.php:498
+msgid "<a href=\"#\">Renoval</a>"
+msgstr "<a href=\"#\">Renoval</a>"
+
+#: inc/extras.php:271
+msgid "0"
+msgstr "0"
+
+#: inc/extras.php:257 inc/extras.php:615
+msgid "View your shopping cart"
+msgstr "Deinen Warenkorb anzeigen"
+
+#: inc/extras.php:236 template-parts/sections/section-header.php:84
+msgid "Type To Search"
+msgstr "Tippen, um zu suchen"
+
+#: inc/extras.php:234
+msgid "Site Search"
+msgstr "Suche auf der Website"
+
+#: inc/extras.php:122
+msgid "Add Widget"
+msgstr "Widget hinzufügen"
+
+#. translators: %s Comment number
+#: inc/extras.php:73
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "%s Kommentare"
+
+#: inc/extras.php:70
+msgid "0 Comment"
+msgstr "0 Kommentare"
+
+#: inc/customizer/renoval-premium.php:36
+msgid "Show Some Love"
+msgstr "Sei freundlich"
+
+#: inc/customizer/renoval-premium.php:32
+msgid "Free Vs Pro"
+msgstr "Free vs. Pro"
+
+#: inc/customizer/renoval-premium.php:30
+msgid "Get Support"
+msgstr "Support erhalten"
+
+#: inc/customizer/renoval-premium.php:28
+msgid "View Documentation"
+msgstr "Dokumentation lesen"
+
+#: inc/customizer/renoval-premium.php:12 inc/customizer/renoval-premium.php:34
+msgid "Upgrade to Pro"
+msgstr "Upgrade auf Pro"
+
+#: inc/customizer/renoval-header.php:315 inc/customizer/renoval-header.php:334
+msgid "Sticky Header"
+msgstr "Oben gehaltener Header"
+
+#: inc/customizer/renoval-header.php:302
+msgid "Button Link"
+msgstr "Button-Link"
+
+#: inc/customizer/renoval-header.php:225
+msgid "Button"
+msgstr "Button"
+
+#: inc/customizer/renoval-header.php:167 inc/customizer/renoval-header.php:244
+#: inc/customizer/renoval-header.php:351
+msgid "Hide/Show"
+msgstr "Verbergen/Anzeigen"
+
+#: inc/customizer/renoval-header.php:150
+msgid "Search"
+msgstr "Suche"
+
+#: inc/customizer/renoval-header.php:128 inc/customizer/renoval-header.php:131
+msgid "Header Navigation Documentation Link"
+msgstr "Link zur Header-Navigations-Dokumentation"
+
+#: inc/customizer/renoval-header.php:95
+msgid "Header Navigation"
+msgstr "Header-Navigation"
+
+#: inc/customizer/renoval-header.php:76
+msgid "Logo Width"
+msgstr "Logo-Breite"
+
+#: inc/customizer/renoval-header.php:55 inc/customizer/renoval-header.php:58
+msgid "Site identity Documentation Link"
+msgstr "Link zur Website-Identitäts-Dokumentation"
+
+#: inc/customizer/renoval-header.php:23
+msgid "Site Identity"
+msgstr "Website-Informationen"
+
+#: inc/customizer/renoval-general.php:278
+msgid "Container Width"
+msgstr "Container-Breite"
+
+#: inc/customizer/renoval-general.php:258
+msgid "Container"
+msgstr "Container"
+
+#: inc/customizer/renoval-general.php:246
+msgid "Fixed"
+msgstr "Fixiert"
+
+#: inc/customizer/renoval-general.php:245
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/customizer/renoval-general.php:244
+msgid "Inherit"
+msgstr "Vererben"
+
+#: inc/customizer/renoval-general.php:239
+msgid "Background Attachment"
+msgstr "Scroll-Verhalten des Hintergrunds"
+
+#: inc/customizer/renoval-general.php:220
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: inc/customizer/renoval-general.php:202
+msgid "Background"
+msgstr "Hintergrund"
+
+#: inc/customizer/renoval-general.php:176
+msgid "Min Height"
+msgstr "Mindesthöhe"
+
+#: inc/customizer/renoval-general.php:137
+msgid "Enable Particle Effect on Breadcrumb?"
+msgstr "Partikeleffekt für Brotkrümel aktivieren?"
+
+#: inc/customizer/renoval-general.php:116
+msgid "Hide / Show Breadcrumb"
+msgstr "Brotkrümel aus-/einblenden"
+
+#: inc/customizer/renoval-general.php:97
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/customizer/renoval-general.php:77
+msgid "Breadcrumb"
+msgstr "Brotkrumen"
+
+#: inc/customizer/renoval-general.php:66
+msgid "Hide / Show Scroller"
+msgstr "Scroller verbergen/anzeigen"
+
+#: inc/customizer/renoval-general.php:47
+msgid "Scroller"
+msgstr "Scroller"
+
+#: inc/customizer/renoval-general.php:36
+msgid "Hide / Show Background Elements"
+msgstr "Hintergrund-Elemente verbergen/anzeigen"
+
+#: inc/customizer/renoval-general.php:17
+msgid "Background Elements"
+msgstr "Hintergrund-Elemente"
+
+#: inc/customizer/renoval-general.php:7
+msgid "General"
+msgstr "Allgemein"
+
+#: inc/customizer/renoval-footer.php:69
+msgid "Footer Widget Area"
+msgstr "Footer-Widget-Bereich "
+
+#: inc/customizer/renoval-footer.php:43
+msgid "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+msgstr "Copyright &copy; [current_year] [site_title] | Powered by [theme_author]"
+
+#: inc/customizer/renoval-footer.php:36 inc/customizer/renoval-footer.php:56
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/renoval-footer.php:17
+msgid "Below Footer"
+msgstr "Unterhalb des Footers"
+
+#: inc/customizer/renoval-footer.php:10
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: inc/customizer/renoval-blog.php:184
+msgid "No of Posts Display"
+msgstr "Anzahl anzuzeigender Beiträge"
+
+#: inc/customizer/renoval-blog.php:165 inc/customizer/renoval-general.php:156
+msgid "Content"
+msgstr "Inhalt"
+
+#: inc/customizer/renoval-blog.php:143
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: inc/customizer/renoval-blog.php:112
+msgid "<h2>Outstanding</h2><div class=\"animation\"><div class=\"first\"><div>Blog</div></div></div>"
+msgstr "<h2>Aussergewöhnlicher</h2><div class=\"animation\"><div class=\"first\"><div>Blog</div></div></div>"
+
+#: inc/customizer/renoval-blog.php:103 inc/customizer/renoval-header.php:12
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer/renoval-blog.php:84
+msgid "Hide / Show"
+msgstr "Verbergen/Anzeigen"
+
+#: inc/customizer/renoval-blog.php:64
+msgid "Setting"
+msgstr "Einstellung"
+
+#: inc/customizer/renoval-blog.php:42 inc/customizer/renoval-blog.php:45
+msgid "Blog Documentation Link"
+msgstr "Link zur Blog-Dokumentation"
+
+#: inc/customizer/renoval-blog.php:9
+msgid "Blog Section"
+msgstr "Blog-Abschnitt"
+
+#: inc/customizer/customizer_recommended_plugin.php:18
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: inc/customizer/customizer_recommended_plugin.php:17
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/customizer/customizer_recommended_plugin.php:16
+msgid "Install and Activate"
+msgstr "Installieren und aktivieren"
+
+#: inc/customizer/customizer_recommended_plugin.php:15
+msgid "Recommended Plugin"
+msgstr "Empfohlenes Plugin"
+
+#: inc/customizer/customizer_recommended_plugin.php:14
+msgid "Recommended Actions"
+msgstr "Empfohlene Aktionen"
+
+#: inc/customizer/customizer_recommended_plugin.php:10
+msgid "Install and activate <strong>Cleverfox</strong> plugin for taking full advantage of all the features this theme has to offer."
+msgstr "Installiere und aktiviere das Plugin <strong>Clever Fox</strong>, um in den Genuss sämtlicher Vorzüge zu kommen, die dieses Theme zu bieten hat."
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:919
+msgid "Service 5"
+msgstr "Dienstleistung 5"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:915
+msgid "Service 4"
+msgstr "Dienstleistung 4"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:911
+msgid "Service 3"
+msgstr "Dienstleistung 3"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:907
+msgid "Service 2"
+msgstr "Dienstleistung 2"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:903
+msgid "Service 1"
+msgstr "Dienstleistung 1"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:848
+#: inc/customizer-repeater/class/customizer-repeater-control.php:881
+msgid "Add Icon"
+msgstr "Icon hinzufügen"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:843
+#: inc/customizer-repeater/class/customizer-repeater-control.php:873
+msgid "Remove Icon"
+msgstr "Icon entfernen"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:826
+msgid "Social icons"
+msgstr "Soziale Icons"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:818
+msgid "None"
+msgstr "Keine"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:813
+msgid "Image type"
+msgstr "Bildtyp"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:802
+msgid "Center"
+msgstr "Zentriert"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:798
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:794
+msgid "Left"
+msgstr "Links"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:790
+msgid "Slide Align"
+msgstr "Slide-Ausrichtung"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:778
+msgid "Slider Image"
+msgstr "Slider-Bild"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:752
+#: inc/customizer-repeater/class/customizer-repeater-control.php:781
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:714
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:713
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "Hinweis: Manche Icons werden hier vielleicht nicht angezeigt. Du findest die vollständige Liste auf %1$s."
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:708
+#: inc/customizer-repeater/class/customizer-repeater-control.php:816
+#: inc/customizer/renoval-header.php:265
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:697
+msgid "Open link in new tab:"
+msgstr "Link in neuem Tab öffnen:"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:660
+msgid "Delete field"
+msgstr "Feld löschen"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:595
+msgid "skill"
+msgstr "Fähigkeit"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:491
+msgid "Delete %s"
+msgstr "%s löschen"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:475
+#: inc/customizer-repeater/class/customizer-repeater-control.php:649
+msgid "Designation"
+msgstr "Bezeichnung"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:467
+#: inc/customizer-repeater/class/customizer-repeater-control.php:640
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:457
+#: inc/customizer-repeater/class/customizer-repeater-control.php:524
+msgid "Color"
+msgstr "Farbe"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:427
+#: inc/customizer-repeater/class/customizer-repeater-control.php:625
+msgid "Video Url"
+msgstr "Video-URL"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:413
+#: inc/customizer-repeater/class/customizer-repeater-control.php:612
+#: inc/customizer-repeater/class/customizer-repeater-control.php:840
+#: inc/customizer-repeater/class/customizer-repeater-control.php:862
+msgid "Link"
+msgstr "Link"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:402
+#: inc/customizer-repeater/class/customizer-repeater-control.php:602
+msgid "Button Text"
+msgstr "Button-Text"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:394
+msgid "skills"
+msgstr "Fähigkeiten"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:387
+#: inc/customizer-repeater/class/customizer-repeater-control.php:588
+#: inc/customizer/renoval-header.php:283
+msgid "Button Label"
+msgstr "Button-Beschriftung"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:380
+#: inc/customizer-repeater/class/customizer-repeater-control.php:581
+#: inc/customizer/renoval-blog.php:144
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:372
+#: inc/customizer-repeater/class/customizer-repeater-control.php:573
+msgid "Subtitle 5"
+msgstr "Untertitel 5"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:364
+#: inc/customizer-repeater/class/customizer-repeater-control.php:565
+msgid "Subtitle 4"
+msgstr "Untertitel 4"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:356
+#: inc/customizer-repeater/class/customizer-repeater-control.php:557
+msgid "Subtitle 3"
+msgstr "Untertitel 3"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:348
+#: inc/customizer-repeater/class/customizer-repeater-control.php:549
+msgid "Subtitle 2"
+msgstr "Untertitel 2"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:340
+#: inc/customizer-repeater/class/customizer-repeater-control.php:540
+#: inc/customizer/renoval-blog.php:123
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:332
+#: inc/customizer-repeater/class/customizer-repeater-control.php:532
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:45
+msgid "Customizer Repeater"
+msgstr "Customizer Repeater"
+
+#: inc/customizer-repeater/class/customizer-repeater-control.php:40
+msgid "Add new field"
+msgstr "Neues Feld hinzufügen"
+
+#: inc/customizer-notify/renoval-customizer-notify.php:114
+msgid "Activating"
+msgstr "Aktivieren"
+
+#: inc/class-wp-bootstrap-navwalker.php:366
+msgid "Add a menu"
+msgstr "Ein Menü hinzufügen"
+
+#: inc/breadcrumb/breadcrumb.php:146
+msgid "Page"
+msgstr "Seite"
+
+#: inc/breadcrumb/breadcrumb.php:141
+msgid "Error 404 "
+msgstr "Fehler 404"
+
+#: inc/breadcrumb/breadcrumb.php:137
+msgid "Articles posted by "
+msgstr "Beiträge von"
+
+#: inc/breadcrumb/breadcrumb.php:131
+msgid "Posts tagged "
+msgstr "Markierte Beiträge"
+
+#: inc/breadcrumb/breadcrumb.php:32
+msgid "Search results for "
+msgstr "Suchergebnisse für"
+
+#: inc/breadcrumb/breadcrumb.php:26
+msgid "Archive by category"
+msgstr "Archiv nach Kategorie"
+
+#: inc/breadcrumb/breadcrumb.php:6
+msgid "Home"
+msgstr "Startseite"
+
+#: inc/breadcrumb/breadcrumb.php:4 inc/breadcrumb/breadcrumb.php:7
+msgid "1"
+msgstr "1"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: functions.php:44
+msgid "Footer Menu"
+msgstr "Footer-Menü"
+
+#: functions.php:43
+msgid "Primary Menu"
+msgstr "Primäres Menü"
+
+#: footer.php:57
+msgid "<a href=\"https://www.nayrathemes.com/renoval-free/\" target=\"_blank\">Renoval</a>"
+msgstr "<a href=\"https://www.nayrathemes.com/renoval-free/\" target=\"_blank\">Renoval</a>"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: comments.php:48 comments.php:68
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:47 comments.php:67
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:44 comments.php:65
+msgid "Comment navigation"
+msgstr "Kommentar-Navigation"
+
+#: 404.php:29
+msgid "Back"
+msgstr "Zurück"
+
+#: 404.php:22 inc/customizer-repeater/class/customizer-repeater-control.php:749
+#: inc/customizer-repeater/class/customizer-repeater-control.php:817
+#: inc/extras.php:176 inc/extras.php:177 inc/extras.php:179 inc/extras.php:180
+#: template-parts/sections/section-blog.php:11
+#: template-parts/sections/section-blog.php:12
+#: template-parts/sections/section-blog.php:13
+#: template-parts/sections/section-blog.php:14
+#: template-parts/sections/section-blog.php:15
+#: template-parts/sections/section-blog.php:16
+#: template-parts/sections/section-blog.php:92
+msgid "Image"
+msgstr "Bild"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/"
+msgstr "https://www.nayrathemes.com/"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/renoval-free/"
+msgstr "https://www.nayrathemes.com/renoval-free/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Nayra Themes"
+msgstr "Nayra Themes"

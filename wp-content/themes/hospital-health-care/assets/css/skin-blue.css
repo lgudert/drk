@@ -1,0 +1,413 @@
+/*
+* Author: Hospital Health Care Template
+* Created by: (A WP Life)
+* Copyright (c) 2021, include.
+* Date: 10 June, 2021
+* http://awplife.com/
+* Name: skin-golden.css
+*/
+
+
+/*--------------------------------------------------------------*/
+/*	Navbar
+/*--------------------------------------------------------------*/
+
+.navbar-overlap .main-navigation .menu>li>a:hover {
+    color: #008CFF;
+}
+.navbar-overlap .main-navigation .menu .current-menu-item>a {
+	color: #008CFF;
+}
+.menu-button,
+.menu-button:hover, 
+.menu-button:active,
+.menu-button:focus {
+	color: #008CFF;
+}
+.main-navigation .menu>li .sub-menu>li>a:hover {
+    color: #008CFF;
+}
+.main-navigation .menu>li .sub-menu>li.current-menu-ancestor>a, 
+.main-navigation .menu>li .sub-menu>li.current-menu-parent>a, 
+.main-navigation .menu>li .sub-menu>li.current-menu-item>a,
+.main-navigation .menu .current-menu-ancestor>a,
+.main-navigation .menu .current-menu-parent>a,
+.main-navigation .menu .current-menu-item>a,
+.main-navigation .menu>li>a:hover {
+	color: #008CFF;
+}
+
+.header-section .menu .menu-item .nav-link.add-menu {
+	background-color: rgb(0 140 255 / 22%);
+}
+
+
+
+.navbar-custom .navbar-brand {
+	color: #008CFF;
+}
+
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav .open > a,
+.navbar-custom .navbar-nav .open > a:focus,
+.navbar-custom .navbar-nav .open > a:hover {
+	color: #008CFF;
+}
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+	color: #008CFF;
+}
+
+/*--------------------------------------------------------------*/
+/*	Cart Icon
+/*--------------------------------------------------------------*/
+
+.shopping-cart:hover > a { color: #008CFF; }
+.shopping-cart > a .cart-total { background-color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Default Html Elements
+/*--------------------------------------------------------------*/
+
+a:hover, a:focus, a:active { color: #008CFF; }
+blockquote:before { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Footer Copyrights - Site Info
+/*--------------------------------------------------------------*/
+
+.site-footer .widget li a:hover{
+	color: #008CFF;
+}
+
+.site-info a:hover, 
+.site-info a:focus { color: #008CFF; }
+
+address i {
+    color: #008CFF;
+}
+
+/*--------------------------------------------------------------*/
+/*	Header Top Info
+/*--------------------------------------------------------------*/
+
+.header-top { background-color: #008CFF; }
+.header-contact-info li i.top-icon { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Owl Carousel Next Prev 
+/*--------------------------------------------------------------*/
+
+.owl-carousel .owl-prev:hover, 
+.owl-carousel .owl-next:hover { 
+	background-color: #008CFF; 
+}
+
+/*--------------------------------------------------------------*/
+/*	Owl Carousel Paginations / Dots
+/*--------------------------------------------------------------*/
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: rgba(255, 192, 0, 1);
+}
+.testimonial-one .owl-theme .owl-dots .owl-dot.active span, 
+.testimonial-one .owl-theme .owl-dots .owl-dot:hover span {
+	background: rgba(255, 192, 0, 1);
+}
+
+.testimonial-two .review:before {
+    background-color: rgb(0 140 255);
+}
+
+/*--------------------------------------------------------------*/
+/*	Section And Mixed Element Css
+/*--------------------------------------------------------------*/
+
+.divider-line { color: #008CFF; }
+.theme-default { background-color: #008CFF; }
+.text-default { color: #008CFF; }
+.btn-animation:before {	background-color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Top Contact Info Callout - Top And Bottom
+/*--------------------------------------------------------------*/
+
+.top-contact-info { background-color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Service Section - One
+/*--------------------------------------------------------------*/
+
+.service-one .post:before { background: #008CFF; }
+.service-icon i { color: #008CFF; }
+.service-one .post:hover .more-link, 
+.service-one .post:focus .more-link {
+	background-color: #008CFF;
+    color: #fff;
+    border: 2px solid #008CFF;
+}	
+
+/*--------------------------------------------------------------*/
+/*	Core Service Section
+/*--------------------------------------------------------------*/
+
+.core-service .icon i { color: #008CFF; }	
+	
+/*--------------------------------------------------------------*/
+/*	Portfolio Section
+/*--------------------------------------------------------------*/
+	
+.portfolio .owl-carousel:hover .owl-prev:hover, 
+.portfolio .owl-carousel:hover .owl-next:hover { 
+	background-color: #008CFF; 
+}
+.portfolio .post .entry-title a:hover { color: #008CFF; }
+
+.portfolio-two .post .post-thumbnail .thumbnail-showcase-icons a:hover, 
+.portfolio-two .post .post-thumbnail .thumbnail-showcase-icons a:focus {
+	background-color: #008CFF;
+	border: 2px solid #008CFF;
+	color: #fff;
+}
+	
+/*--------------------------------------------------------------*/
+/*	Portfolio Filters Links
+/*--------------------------------------------------------------*/	
+	
+.portfolio-filters li a:before {
+	background-color: #008CFF; 
+}	
+	
+/*--------------------------------------------------------------*/
+/*	Section Header
+/*--------------------------------------------------------------*/
+
+.entry-header .entry-title > a:hover, 
+.entry-header .entry-title > a:focus, 
+.entry-header .entry-title > a:active { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Page Title Section
+/*--------------------------------------------------------------*/
+
+.page-breadcrumb > li a:hover, .page-breadcrumb > li a:focus, 
+.page-breadcrumb > li.active { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Testimonial Section
+/*--------------------------------------------------------------*/
+
+.testimonial { background-color: #008CFF; }
+.review .wt-content:before { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Testimonial Section - Two
+/*--------------------------------------------------------------*/
+
+.testimonial-one .name > a:hover { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	About Us
+/*--------------------------------------------------------------*/
+
+.about-img-holder img {
+    border-radius: 2px;
+    -webkit-box-shadow: -30px -30px 0px 0px #008CFF;
+    -moz-box-shadow: -30px -30px 0px 0px #008CFF;
+    box-shadow: -30px -30px 0px 0px #008CFF;
+}
+
+/*--------------------------------------------------------------*/
+/*	Team Section
+/*--------------------------------------------------------------*/
+
+.team-module:hover .team-caption { border-bottom: 2px solid #008CFF; }
+.team-overlay { background: rgba(255, 192, 0, 0.7); }
+
+/*--------------------------------------------------------------*/
+/*	Blog Section 
+/*--------------------------------------------------------------*/
+
+.blog .entry-meta a:hover, .blog .entry-meta a:focus { color: #008CFF; }
+/* .blog .entry-meta .entry-date a { color: #008CFF; } */
+.byline .author:before, .entry-date:before, 
+.comments-link:before, .cat-links:before, 
+.tag-links:before {
+    color: #008CFF;
+}
+.more-link:hover, .more-link:focus { border: 2px solid #008CFF; }
+.more-link:before { background-color: #008CFF; }
+.blog-author .designation { color: #008CFF; }
+.reply a:hover, .reply a:focus { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Sidebars & Widgets Section
+/*--------------------------------------------------------------*/
+	
+.widget .widget-title { border-left: 3px solid #008CFF; }
+.widget a:hover, .widget a:focus { color: #008CFF; }
+.widget i.icon { color: #008CFF; }
+.widget .post .entry-meta .entry-date a { color: #008CFF; }
+.widget .tagcloud a:hover { background-color: #008CFF; border: 1px solid #008CFF;}
+.widget #wp-calendar caption { background-color: #008CFF; }
+
+.site-footer .widget .widget-title {
+	background: linear-gradient(to right, #008CFF30, #192127);
+}
+/*--------------------------------------------------------------*/
+/*	404 Error Page
+/*--------------------------------------------------------------*/
+
+.error-404 i { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Contact Page
+/*--------------------------------------------------------------*/
+
+.contact-area:before { 
+	border-top-color: #008CFF; 
+	border-bottom-color: #008CFF;
+} 
+.contact-area:after {
+	border-left-color: #008CFF;
+	border-right-color: #008CFF;
+} 
+.contact-area i.fa { color: #008CFF; }
+
+/*--------------------------------------------------------------*/
+/*	Page Scroll Up
+/*--------------------------------------------------------------*/
+
+.page-scroll-up {
+	background-color: #008CFF;	
+}
+.page-scroll-up:hover, .page-scroll-up:focus {
+	background-color: #008CFF; 
+}
+
+.sponsors img:hover {
+	border: 1px solid #008CFF;
+}
+.team-caption .designation {
+    color: #008CFF;
+}
+.blog .post:before { 
+	background-color: #008CFF;
+}
+.service-2 .post:before { 
+	background-color: #008CFF;
+}
+/* .service-one .post { 
+	border-bottom: 4px solid #008CFF;
+} */
+.footer { 
+	border-top: 3px solid #008CFF;
+}
+.contact-info-module:hover .contact-icon { 
+	border: 3px solid #008CFF;
+}
+.team-avatar .team-social-icons a:hover {
+	color: #008CFF;
+}
+
+.testimonial-one .review:before {
+	background-color: #008CFF;
+}
+
+.team-module-two:before {
+	background-color: #008CFF;
+}
+
+.team-module-two .team-social-icons a:hover{
+	color: #008CFF;
+}
+figure.portfolio-snipone:before {
+    background-color:  #008CFF;
+	border-right: 1px solid  #008CFF;
+}
+figure.portfolio-snipone i:hover{
+	color:  #008CFF;
+}
+.portfolio-snipone a:hover{
+	color: #008CFF;
+}
+/*--------------------------------------------------------------*/
+/*	Contact Form 7 button
+/*--------------------------------------------------------------*/
+
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #008CFF;
+}
+
+/*--------------------------------------------------------------*/
+/*	Woocommerce Custom CSS
+/*--------------------------------------------------------------*/
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #008CFF;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    background-color: #008CFF;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	background-color: #008CFF;
+}
+
+.woocommerce span.onsale {
+	background-color: #008CFF;
+}
+
+.product_list_widget ins {
+    background: #008CFF;
+}
+.woocommerce-message::before {
+	color: #008CFF;
+}
+.woocommerce-message{
+	border-top-color: #008CFF;
+}
+
+.woocommerce-section {
+    background-color: #008CFF;
+}
+
+
+/*Mobile Menu*/
+@media screen and (max-width: 767px){
+
+	button.open-nav-btn {
+		color:#008CFF;
+	}
+	button.open-nav-btn i {
+		border: 2px solid #008CFF;
+	}
+
+	.slide-content .close-btn i{
+			border: 2px solid #008CFF;
+	}
+	.slide-content .close-btn{
+			color: #008CFF;
+	}
+	
+	.header-section button:hover, 
+	.header-section button:focus, 
+	.header-section input[type="button"]:hover, 
+	.header-section input[type="button"]:focus, 
+	.header-section input[type="reset"]:hover, 
+	.header-section input[type="reset"]:focus, 
+	.header-section input[type="submit"]:hover, 
+	.header-section input[type="submit"]:focus{
+		background: none;
+	}
+	
+}

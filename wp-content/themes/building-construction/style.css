@@ -1,0 +1,27 @@
+/*
+Theme Name: Building Construction
+Theme URI: https://wpfrank.com/wordpress-themes/businessexpo-premium/
+Template: businessexpo
+Author: WP Frank
+Author URI: https://wpfrank.com/
+Description: Building Construction is one of the fastest on the market, with high-quality code optimized for performance. the theme is perfectly suited for business, blog, business promotion, electricians, industries, freelancers, lawyers, appointments, coming soon, posts website, education, school, SEO, construction, wedding, music, cafe, hotel, fashion storefront, online shop, interior design, decoration, construction, crafts, corporate, agency, trending news, Beauty spa salons, vehicle washes, photography, gym, travel agency and many other websites compatible, You will have lots of options to consider. As well as it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes with multiple homepage sections like slider, service, info, callout, and testimonial. This theme supports the best Elementor page builder to create, edit and update page designs as per the requirement. The theme is fully responsive and compatible with popular WordPress plugins like Page Builder, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and more. If you are looking for a fast, spacious, SEO-friendly, and easy-to-use theme, don´t go astray. You just found it!
+Tags: one-column,two-columns,four-columns,right-sidebar,flexible-header,custom-background,custom-header,custom-menu,editor-style,featured-images,footer-widgets,post-formats,theme-options,threaded-comments,rtl-language-support,translation-ready,full-width-template,custom-logo,blog,e-commerce,portfolio
+Version: 0.1.7
+Tested up to: 6.3.1
+Requires PHP: 4.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: building-construction
+
+*/
+
+a {
+    color: #f3a31abd;
+}
+blockquote cite,
+blockquote small {
+    color: #dbdbdb;
+}
+pre {
+    background: #222324;   
+}

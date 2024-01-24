@@ -1,0 +1,222 @@
+/*
+Theme Name: Hospital Health Care
+Theme URI: https://awplife.com/wordpress-free-theme/hospital-health-care/
+Template: awpbusinesspress
+Author: A WP Life
+Author URI: http://awplife.com/
+Description: Hospital Health Care is a responsive and fully customizable theme to Create Medical & Hospital websites. The template design is used to designing and developing websites for hospitals, doctors, clinics, health centers or community health centers, medical stores, health services, dental, drug stores, spa massage centers, surgeons, dentists, health centres, Paramedic, Audiologist, Pharmacy technician, Dental assistant, Prosthetist, Psychologist, Surgical technologist, health club, medicals, Pediatrics, Language Therapist, Sonographer, nursing homes, veterinary clinics, medical stores, orthopedics, medical personnel, general physicians, General practitioner, Genetic counselor, Paediatrician, Chiropractor, Primary care physician, gynaecologist, Gastroenterology General Surgery, Emergency Medicine, Obstetrics & Gynaecology, health consultant, physiotherapists, orthopaedics, medical practitioners, paediatricians, medicine, Clinical, Hospitals, Health Clinics, Medical Practices, Pediatrics, ambulance, psychiatry, pharmacies, therapy and health care centres. It's also suitable with blog, portfolio, newspaper, architecture design, construction buildings, inspirational industries, Beauty & spa salons, photography, gym, bodyshape, fitness, blogging startups, education, university portal, business press, restaurant, Marketing shops, magazines, general stores, office, education kids centers. Hospital Health Care theme is compatible with popular WordPress plugins like Yoast SEO, Jetpack, Elementor Page Builder, Gutenberg, Block-Enabled, WooCommerce, multilingual, WPML, Contact Form 7, WPForms, Wordfence Security, WP Super Cache and more. The theme has flexible sections top bar, slider, services, team, testimonial, callout, blogs and client and much more, so don't go astray. Live Demo: https://awplife.com/demo/hospital-health-care-premium/
+Tags: blog, portfolio, e-commerce, grid-Layout, microformats, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready
+Version: 0.2.6
+Tested up to: 6.4
+Requires PHP: 5.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hospital-health-care
+*/
+
+/*Important For WP COLOR SETTINGS*/
+.navbar-overlap .main-navigation .menu .current-menu-item>a,
+.navbar-overlap .main-navigation .menu .current-menu-ancestor>a, 
+.navbar-overlap .main-navigation .menu .current-menu-parent>a{
+	color: #008cff;
+}
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-item>a, 
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-ancestor>a,
+.navbar-overlap .main-navigation .menu>li .sub-menu>li.current-menu-parent>a{
+	color: #008cff;
+}
+
+/*Under Line Text*/
+.color-accent, .color-accent-hover:hover,
+.color-accent-hover:focus, :root .has-accent-color, 
+.has-drop-cap:not(:focus):first-letter, 
+.wp-block-button.is-style-outline, a {
+    color: #008cff;
+}
+
+/*For Child Theme only*/
+.testimonial-two,
+.funfact {
+	background-size: cover !important;
+}
+
+.testimonial-two:before{
+	background-color: rgb(0 9 15 / 70%) !important;
+}
+
+
+#slider-demo.overlay-disable .slider-caption .caption-content {
+	width: 60%;
+}
+
+#slider-demo.overlay-none .slider-caption .caption-content{
+	background-color: rgb(0 0 0 / 0%);
+}
+
+.service-one .post {
+    border-bottom: 1px solid #e7e7e7 !important;
+}
+.service-one .service-box .entry-title a{
+	color: #000 !important;
+}
+.service-one .service-box .entry-title a:hover{
+	color: #008cff !important;
+}
+
+
+.service-one .post { 
+	background-color: #ffffff;
+	/* border-left: none; */
+	position: relative; 
+	margin: 0px 0 50px; 
+	padding: 50px 30px 50px; 
+	font-size: 1.000rem;
+	line-height: 1.75;
+	border-radius: 2px;
+	font-style: normal;
+	/* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); */
+	transition: 0.3s;
+	/* -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); 
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); */
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);	
+	border: 1px solid #e7e7e7;
+}
+.service-one .post:hover { 
+	-webkit-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1); 
+	box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.1);
+	-webkit-transform: translateY(-7px);
+	-ms-transform: translateY(-7px);
+	transform: translateY(-7px);
+}
+
+.service-one .post:before {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    height: 4px;
+    width: 0px;
+    background-color: #5ca2df;
+    transition: all 500ms ease;
+    left: 0px;
+}
+.service-one .post:after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    height: 4px;
+    width: 0px;
+    background-color: #5ca2d;
+    transition: all 500ms ease;
+    right: 0px;
+}
+.service-one .post:hover:after, 
+.service-one .post:hover:before {width: 100%;transition: all 500ms ease;}
+
+
+/*Default Widget CSS*/
+address {
+    margin: 0 0 1.6rem;
+    line-height: 2;
+}
+.footer .widget address {
+    color: #fff;
+}
+
+address i {
+    width: 1.563rem;
+    height: auto;
+    margin-right: 0.438rem;
+    font-size: 1.25rem !important;
+}
+
+
+/*Parent Theme Slider Font */
+.fa-long-arrow-left:before {
+    content: "\f177" !important;
+}
+.fa-long-arrow-right:before {
+    content: "\f178" !important;
+}
+
+/*Calendar Next Prev CSS */
+.site-footer .calendar_wrap .wp-calendar-nav-prev a {
+	background: linear-gradient(to right, #008cff9e, #008cff26);
+	color: #fff;
+}
+.site-footer .calendar_wrap .wp-calendar-nav-prev a:hover {
+	background: linear-gradient(to right, #008cff26, #008cff5c);
+	color: #fff;
+}
+
+.site-footer .calendar_wrap .wp-calendar-nav-next a{
+	background: linear-gradient(to right, #008cff26, #008cff5c);
+	color: #fff;
+}
+
+.site-footer .calendar_wrap .wp-calendar-nav-next a:hover{
+	
+	background: linear-gradient(to right, #008cff9e, #008cff26);
+	color: #fff;
+}
+
+
+
+/*Hospital Health Care Design 2 */
+
+@media (max-width: 768px){
+	#slider-demo.overlay-disable .slider-caption .title{
+		font-size: 2rem;
+	}
+	.slider-caption .subtitle{
+		margin-bottom: .5rem;
+		margin: 0 0 5px;
+	}
+	.m-top-40 {
+    margin-top: 20px !important;
+	}
+	.btn-large{
+		padding: 0.513rem 1.5rem;
+	}
+}
+
+@media (max-width: 480px){
+#slider-demo.overlay-disable .slider-caption .title {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+	}
+	.slider-caption .subtitle{
+		margin-bottom: 0.9rem;
+	}
+	#slider-demo.overlay-disable .slider-caption .caption-content{
+		padding: 10px 10px 10px;
+	}
+	
+		#slider-demo.overlay-disable .slider-caption p {
+    font-size: .8rem;
+	}
+	.btn-large {
+		padding: 0.313rem 1rem;
+		font-size: 0.738rem;
+	}
+	.hero-slider h5{
+		font-size: .8rem;
+	}
+	.owl-theme .owl-nav.disabled+.owl-dots{
+		display:none;
+	}
+	
+	/*Theme Info*/
+	.contact-icon {
+		float: left !important;
+	}
+	.contact-info-module {
+		padding: 1.563rem 0rem !important;
+	}
+	
+}

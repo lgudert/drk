@@ -1,0 +1,195 @@
+/*
+* Author: WpFrank
+* Name: skin-default.css
+*/
+
+
+/*--------------------------------------------------------------*/
+/*	Genral
+/*--------------------------------------------------------------*/
+a:hover, a:focus, a:active { color: #FF4081; }
+.btn-skin { background-color: #FF4081; }
+.divider-main::before { background: #FF4081; }
+.btn {
+	background-color: #FF4081;
+}
+.btn:hover {
+	background:#FF4081;
+}
+
+.feature:nth-child(2) {
+    background: #ff4081;
+}
+.notfound .notfound-404 span {
+  color:#FF4081;
+}
+.page-scroll-up {
+    background-color: #FF4081;
+}
+
+/*--------------------------------------------------------------*/
+/*	Owl
+/*--------------------------------------------------------------*/
+.owl-theme .owl-nav button:hover {
+	background: #FF4081;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #ff4081;
+}
+.slider-caption .subtitle { 
+	color: #ff4081; 
+} 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    box-shadow: 0 0 0 5px #ff40814d;
+}
+
+/*--------------------------------------------------------------*/
+/*	Nav
+/*--------------------------------------------------------------*/
+.nav-item:hover .nav-link {
+	color: #FF4081;
+}
+.nav-item.active .nav-link {
+	color: #FF4081;
+}
+.nav-item .dropdown-item.active, .nav-item .dropdown-item:active {
+	background-color: #FF4081;
+}
+.nav-item .dropdown-menu { border-top-color:#ff4081; } 
+.dropdown-item:hover, 
+.dropdown-item:focus {
+	background-color: #FF4081;
+}
+/*--------------------------------------------------------------*/
+/*	Section Header
+/*--------------------------------------------------------------*/
+
+.inner-header .inner-title > a:hover, 
+.inner-header .inner-title > a:focus, 
+.inner-header .inner-title > a:active { color: #FF4081; }
+
+.cart > a .cart-total {
+    background: #FF4081;
+}
+.header-contact-info i {
+	color:#ff4081
+}
+.header-buy-button {
+	border-color: #ff4081;
+    background: #ff4081;
+}
+/*--------------------------------------------------------------*/
+/*	Section Services
+/*--------------------------------------------------------------*/
+
+.icon-bg {
+    color: #FF4081;
+}
+.icon-bg::after {
+    background: #FF4081;
+}
+.single-service ul li::before {
+  color: #ff4081;
+}
+.single-service ul.list li a:hover {
+	 color: #ff4081;
+}
+/*--------------------------------------------------------------*/
+/*	 about page
+/*--------------------------------------------------------------*/
+
+.about-img-holder:before {
+    border-color: #ff4081;
+}
+
+/*--------------------------------------------------------------*/
+/*	Section Portfolio
+/*--------------------------------------------------------------*/
+/*.portfolio-thumbnail figcaption {
+background: #FF4081
+}*/
+.portfolio-thumbnail i {
+background: #FF4081
+}
+.portfolio .post .inner-title a:hover {
+	color:#FF4081;
+}
+/*--------------------------------------------------------------*/
+/*	Blog 
+/*--------------------------------------------------------------*/
+
+.blog .entry-meta .entry-date a { color: #FF4081; }
+.post .post-meta span:first-child { color: #FF4081; }
+.post .post-widget li:after {
+    color: #ff4081;
+}
+.post-navigation i {
+	  color: #ff4081;
+}
+.more-link {
+	color: #ff497c;
+}
+/*--------------------------------------------------------------*/
+/*	Sidebars & Widgets Section
+/*--------------------------------------------------------------*/
+	
+
+.widget a:hover, .widget a:focus { color: #FF4081; }
+.widget i.icon { color: #FF4081; }
+.widget .post .entry-meta .entry-date a { color: #FF4081; }
+.widget .tagcloud a:hover { background-color: #FF4081; border: 1px solid #FF4081;}
+.widget #wp-calendar caption { background-color: #FF4081; }
+.widget .twitter-feed-widget a {
+	color: #FF4081;
+}
+
+/*--------------------------------------------------------------*/
+/*	Shop
+/*--------------------------------------------------------------*/
+	
+.shop .product-sale { 
+	color: #FF4081; 
+	}
+.add-to-cart a { 
+	background-color: #FF4081; 
+}
+.add-to-cart a { 
+	color: #fff; 
+}
+.shop .inner-content ins {
+	background-color: #FF4081;
+	color: #fff;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+	background-color: #FF4081;
+	color: #fff;
+}
+.woocommerce ul.products li.product .star-rating,
+.shop .product ul.woocommerce .star-rating,
+.woocommerce-product-rating {
+	color: #FF4081;
+}
+
+/*--------------------------------------------------------------*/
+/*	Funfact
+/*--------------------------------------------------------------*/
+	
+.funfact .funfact-icon { color: #FF4081; }
+
+/*--------------------------------------------------------------*/
+/*	Footer
+/*--------------------------------------------------------------*/
+	
+.social-btns .btn i {color: #FF4081 }
+.scroll-down:hover {
+	background: #FF4081;
+}
+.footer { 
+	border-top: 2px solid #ff4081;
+}
+.border-box:after {
+    background: #ff4081;
+}
+.border-box:before {
+    background: #ff4081;
+}

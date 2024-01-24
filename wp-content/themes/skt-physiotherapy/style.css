@@ -1,0 +1,89 @@
+/*
+Theme Name: SKT Physiotherapy
+Theme URI: https://www.sktthemes.org/shop/free-physiotherapy-wordpress-theme
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+Description: SKT Physiotherapy theme is relevant to physical therapy, conditioning, activity, exercise, workout, training, exertion, gymnastics, athletes well being, rehabilitation, pharmaceuticals, personal trainers, gymnasium trainers, spiritual class, medical stores, cardio, spa and massage centers, gym, fitness studios, nutritionists, Sports injuries, Clinical Pilates, bootcamps, weight loss, clubs, wellness, workout sports coaches, wrestling academy, fitness clubs, yoga classes, Physiotherapist, Rehabilitative Care, Injury Prevention, health consultants, lifestyle coach, cardio, meditation, fitness advisor, gyms, obesity management, emergency care, manual therapy, gymnastic coaching, boxing club, weight loss enthusiasts, Chiropractic Therapy, health experts, aerobics, boxing, crossfit, chiropractor, bone healing, groin care, elderly care etc. Supports SEO plugins, WooCommerce, CTA. Simple, flexible and easy to use. Demo: https://sktperfectdemo.com/themepack/physiotherapy/
+Template: skt-pizzeria
+Version: 1.1
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
+Text Domain: skt-physiotherapy
+Tags: two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
+
+SKT Physiotherapy is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+
+SKT Physiotherapy WordPress Theme has been created by SKT Themes(sktthemes.org), 2023.
+SKT Physiotherapy WordPress Theme is released under the terms of GNU GPL
+*/
+
+body{font-family: 'Poppins'; font-size: 16px;}
+h1, h2, h3, h4, h5, h6{font-family: 'Poppins';}
+a:hover {color: #ce2066;}
+.head-info-area{background-color: #ce2066;}
+.head-info-area .left{background-color:#b41153; padding:0 30px;}
+.head-info-area .left .phntp{padding: 13px 25px 13px 0; border-right: 1px solid #c34175;}
+.head-info-area .left .taglinetp{padding: 13px 0 0 25px;}
+.emltp a:hover{color: #ffffff;}
+.postmeta, .postmeta a{color: #ce2066;}
+.logo h2{font-size:28px;}
+.heder-rightside{float:left;}
+.header{background-color: #ffffff;}
+.page_content{padding: 40px 0;}
+#sidebar li a:hover{color:#ce2066;}
+#sidebar ul li a:hover{color: #ce2066;}
+.footer h2{font-size:22px;}
+.footer h2:after{content:''; display:table; border-bottom:1px solid #65686a; width:53px; position:relative; top:10px; padding:0 0 30px 0;}
+.footer h1, .footer h2, .footer h3, .footer h4{font-weight:500;}
+.footer-row ul li a::before {content: '>'; padding-right: 10px;}
+.footer-row .widget_nav_menu ul{text-align:left; border-radius:50px; font-size: 16px; font-weight: 500; background-color:transparent; margin-bottom:0; padding:0; font-family: 'Poppins';}
+.ftr-widg{position:relative; z-index:999;}
+.footer-row .widget_nav_menu ul li{display:block;}
+.cols-3:nth-child(1){width:25%; padding-left:0px;}
+.cols-3:nth-child(2){width:22%;}
+.cols-3:nth-child(3){width:27%;}
+.cols-3:nth-child(4){width:26%; padding-right:0px;}
+.cols-3 {float: left; padding:30px;}
+.footer-row .cols-3 ul li a{color:#ffffff;}
+.cols-3 ul li a{color: #ffffff;}
+.cols-3 ul li a:hover, .cols-3 ul li.current_page_item a{color: #ce2066;}
+.footer-row .cols-3 ul li a:hover, .footer-row .cols-3 ul li.current_page_item a{color: #ce2066}
+.copyright-wrapper{color: #ffffff; background-color: #1a1d1f;}
+.copyright-txt{padding: 30px 0 30px 0; text-align: left; color:#ffffff; font-family: 'Poppins';}
+.copyright-txt a{color: #ce2066;}
+.copyright-txt a:hover{color: #cccccc;}
+
+#footermenu li.current-menu-item a, #footermenu li.current_page_item a{color: #ce2066;}
+.copyright-txt span{color: #ce2066;}
+input.search-submit, .post-password-form input[type=submit], .wpcf7-form input[type=submit], .woocommerce-product-search button[type=submit]{background-color: #ce2066;}
+.screen-reader-text:focus{color: #ce2066;}
+#logo-main a:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="color"]:focus, textarea:focus, a:focus{outline: thin dotted #ce2066;}
+#navigation{text-align: left;}
+.main-navigation{font-size:18px;}
+.main-navigation ul li a{color: #000000;}
+.main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a{color: #ce2066;}
+.main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus{background: #ce2066;}
+.main-navigation ul li ul li a{line-height: 40px; color:#ce2066;}
+.skt-header-quote-btn{float: right; margin:30px 0 0 0;}
+.skt-header-quote-btn a{position:relative; background-color: #0090eb; padding: 15px 35px; color: #ffffff; font-size: 16px; font-weight: 600; text-align:center; border-radius:50px; right:0; bottom:0; min-width:inherit; font-family: 'Poppins';}
+.skt-header-quote-btn a:hover{background-color: #ce2066;}
+.header-phone-number:hover{background-color:#ce2066;}
+.toggled .menu-toggle span{background: #ce2066;}
+.cart-customlocation:hover .custom-cart-count{background-color:#ce2066;}
+.inner-banner-thumb h1{font-size:36px; top:40%; right:0; left:0;}
+#footer{position:relative; background-color:#232629 !important; background:none;}
+.social-icons a{width: 40px; height: 50px; line-height: 50px; text-align: center; vertical-align: middle; display: inline-block; transition: 0.6s; -moz-transition: 0.6s; -webkit-transition: 0.6s; -o-transition: 0.6s; margin: 0 2px; padding: 0;}
+.social-icons a:hover{background-color:#b41153;}
+#sidebar .wp-block-search__label{font-family: 'Poppins';}
+.main-navigation ul{font-family: 'Poppins';}
+.social-icons a{background-color:transparent !important; border-radius:0 !important;}
+.social-icons a:hover{background-color: #b41153 !important;}
+.social-icons .fb{background: url(images/icon-fb.png) no-repeat center center;}
+.social-icons .tw{background: url(images/icon-tw.png) no-repeat center center;}
+.social-icons .in{background: url(images/icon-in.png) no-repeat center center;}
+.social-icons .insta{background: url(images/icon-insta.png) no-repeat center center;}
+.social-icons .yt{background: url(images/icon-youtube.png) no-repeat center center;}
+.sticky{border-bottom-color:#ce2066;}

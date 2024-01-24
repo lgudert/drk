@@ -1,0 +1,166 @@
+# Translation of Plugins - Smart Custom 404 error page [404page] - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Smart Custom 404 error page [404page] - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-01 13:08:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Smart Custom 404 error page [404page] - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Smart Custom 404 error page [404page]"
+msgstr "Smart Custom 404 error page [404page]"
+
+#: block.json
+msgctxt "block title"
+msgid "URL causing 404 error"
+msgstr "404 Fehler URL"
+
+#: inc/class-404page-admin.php:352
+msgid "Check this if you always want to send an HTTP 410 error instead of an HTTP 404 error."
+msgstr "Aktiviere diese Option wenn Du immer einen HTTP 410 Fehler anstatt eines HTTP 404 Fehlers senden möchtest."
+
+#: inc/class-404page-admin.php:349
+msgid "Always send an HTTP 410 error instead of HTTP 404"
+msgstr "Immer einen HTTP 410 Fehler anstatt eines HTTP 404 senden"
+
+#: inc/class-404page-admin.php:240
+msgid "W3 Total Cache detected. All 404 errors are automatically excluded from caching."
+msgstr "W3 Total Cache erkannt. Alle Fehler 404 werden automatisch vom Caching ausgeschlossen."
+
+#: inc/class-404page-admin.php:222
+msgid "WP Super Cache detected. All 404 errors are automatically excluded from caching."
+msgstr "WP Super Cache erkannt. Alle Fehler 404 werden automatisch vom Caching ausgeschlossen."
+
+#: inc/class-404page-admin.php:203
+msgid "Jetpack sitemap detected. Your 404 page is NOT automatically excluded from the XML sitemap created by Jetpack, because you disabled the option \"Send an 404 error if the page is accessed directly by its URL\" on the \"Advanced\" tab."
+msgstr "Jetpack Sitemap erkannt. Deine 404 Seite wird NICHT automatisch von der Jetpack XML Sitemap ausgeschlossen, weil Du die Option \"Einen 404-Fehler senden wenn die Seite direkt über die URL aufgerufen wird\" im Tab \"Erweiterte Einstellungen\" deaktiviert hast."
+
+#: inc/class-404page-admin.php:199
+msgid "Jetpack sitemap detected. Your 404 page is automatically excluded from the XML sitemap created by Jetpack."
+msgstr "Jetpack Sitemap erkannt. Deine 404 Seite wird automatisch von der Jetpack XML Sitemap ausgeschlossen."
+
+#: inc/class-404page-admin.php:179
+msgid "Yoast SEO sitemap detected. Your 404 page is automatically excluded from the XML sitemap created by Yoast."
+msgstr "Yoast SEO Sitemap erkannt. Deine 404 Seite wird automatisch aus der Yoast XML Sitemap ausgeschlossen."
+
+#: inc/class-404page-admin.php:183
+msgid "Yoast SEO sitemap detected. Your 404 page is NOT automatically excluded from the XML sitemap created by Yoast, because you disabled the option \"Send an 404 error if the page is accessed directly by its URL\" on the \"Advanced\" tab."
+msgstr "Yoast SEO Sitemap erkannt. Deine 404 Seite wird NICHT automatisch aus der Yoast XML Sitemap ausgeschlossen, weil Du die Option \"Einen 404-Fehler senden wenn die Seite direkt über die URL aufgerufen wird\" im Tab \"Erweiterte Einstellungen\" deaktiviert hast."
+
+#: inc/class-404page-admin.php:113
+msgid "Explainer Videos"
+msgstr "Erklärvideos"
+
+#: inc/class-404page-block-editor.php:46
+#: inc/class-404page-classic-editor.php:51
+msgid "You are currently editing your custom 404 error page"
+msgstr "Du bearbeitest gerade Deine 404-Fehlerseite"
+
+#: inc/class-404page-admin.php:73
+msgid "Advanced"
+msgstr "Erweiterte Einstellungen"
+
+#: inc/class-404page-admin.php:58
+msgid "General"
+msgstr "Generelle Einstellung"
+
+#: inc/class-404page-admin.php:334
+msgid "Check this if you want to inform search engines that the resource requested is no longer available and will not be available again so it can be removed from the search index immediately."
+msgstr "Aktiviere diese Option wenn Du Suchmaschinen darüber informieren möchtest, dass die angeforderte Ressource nicht mehr verfügbar ist und auch nicht wieder verfügbar sein wird, sodass sie umgehend aus dem Suchindex entfernt werden kann. "
+
+#: inc/class-404page-admin.php:331
+msgid "Send an HTTP 410 error instead of HTTP 404 in case the requested object is in trash"
+msgstr "Sende einen HTTP 410 Fehler anstatt eines HTTP 404 wenn sich das angeforderte Objekt im Papierkorb befindet"
+
+#: inc/class-404page-admin.php:393
+msgid "If you are using a theme or plugin that modifies the WordPress Template System, the 404page plugin may not work properly. Compatibility Mode maybe can fix the problem. Activate Compatibility Mode only if you have any problems."
+msgstr "Wenn Du ein Theme oder ein Plugin benutzt, das das WordPress Template System modifiziert, funktioniert das 404page Plugin möglicherweise nicht richtig. Der Kompatibilitäts Modus kann dieses Problem möglicherweise beheben. Aktiviere den Kompatibilitäts Modus nur wenn Du irgendwelche Probleme hast."
+
+#: inc/class-404page-admin.php:376
+msgid "Activate Compatibility Mode"
+msgstr "Kompatibilitäts Modus aktivieren"
+
+#: inc/class-404page-admin.php:316
+msgid "This stops WordPress from URL autocorrection guessing. Only activate, if you are sure about the consequences."
+msgstr "Dadurch wird die WordPress URL Autokorrektur Schätzung ausgeschaltet. Aktiviere diese Option nur, wenn Du bezüglich der Auswirkungen sicher bist."
+
+#: inc/class-404page-admin.php:313
+msgid "Disable URL autocorrection guessing"
+msgstr "Deaktiviere URL Autokorrektur Schätzung"
+
+#: inc/class-404page-admin.php:299
+msgid "Generally this is not needed. It is not recommended to activate this option, unless it is necessary. Please note that this may cause problems with your theme."
+msgstr "Generell ist das nicht nötig. Es ist nicht empfehlenswert, diese Option zu aktivieren, außer wenn es nötig ist. Bitte beachte, dass dies Probleme mit Deinem Theme verursachen könnte."
+
+#: inc/class-404page-admin.php:296
+msgid "Force 404 error after loading page"
+msgstr "Fehler 404 erzwingen, nachdem die Seite geladen wurde"
+
+#. Author of the plugin
+msgid "Peter Raschendorfer"
+msgstr "Peter Raschendorfer"
+
+#: inc/class-404page-admin.php:389
+msgid "This setting is not availbe because the 404page Plugin works in WPML Mode."
+msgstr "Diese Option ist nicht verfügbar, da das 404page Plugin im WPML Modus arbeitet."
+
+#: inc/class-404page-admin.php:385
+msgid "This setting is not availbe because the 404page Plugin works in Customizr Compatibility Mode."
+msgstr "Diese Option ist nicht verfügbar, da das 404page Plugin im Kompatibilitätsmodus für das Customizr Theme arbeitet."
+
+#: inc/class-404page-admin.php:381
+msgid "This setting is not available because the Theme you are using natively supports the 404page plugin."
+msgstr "Diese Option ist nicht verfügbar, da das Theme, das Du verwendest, das 404page Plugin nativ unterstützt."
+
+#: inc/class-404page-admin.php:282
+msgid "Uncheck this if you want the selected page to be accessible."
+msgstr "Deaktiviere diese Option wenn du möchtest, dass die Seite auch direkt erreichbar sein soll."
+
+#: inc/class-404page-admin.php:279
+msgid "Send an 404 error if the page is accessed directly by its URL"
+msgstr "Einen 404-Fehler senden wenn die Seite direkt über die URL aufgerufen wird"
+
+#: inc/class-404page-admin.php:265
+msgid "For Administrators the page is always visible."
+msgstr "Für Administratoren ist die Seite immer sichtbar."
+
+#: inc/class-404page-admin.php:262
+msgid "Hide the selected page from the Pages list"
+msgstr "Die ausgewählte Seite in der Seitenliste nicht anzeigen"
+
+#: inc/class-404page-admin.php:169
+msgid "Test 404 error"
+msgstr "404-Fehler testen"
+
+#. Description of the plugin
+msgid "Custom 404 the easy way! Set any page as custom 404 error page. No coding needed. Works with (almost) every Theme."
+msgstr "Eigene 404-Fehlerseite ganz einfach selbst erstellen! Definiere eine beliebige Seite als 404-Fehlerseite. Keine Programmierkenntnisse nötig. Funktioniert mit (fast) jedem Theme."
+
+#: inc/class-404page-admin.php:169
+msgid "Edit Page"
+msgstr "Seite bearbeiten"
+
+#: inc/ppf/ppf-admin.php:463
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast nicht die erforderlichen Rechte, um auf diese Seite zuzugreifen."
+
+#: inc/class-404page-admin.php:407
+msgid "404 Error Page"
+msgstr "404-Fehlerseite"
+
+#: inc/class-404page-admin.php:164
+msgid "&mdash; NONE (WP default 404 page) &mdash;"
+msgstr "&mdash; KEINE (WP-Standard-404-Seite) &mdash;"
+
+#: inc/class-404page-admin.php:161
+msgid "The page you have selected as 404 page does not exist anymore. Please choose another page."
+msgstr "Die Seite, die als 404-Fehlerseite ausgewählt wurde, exisitiert nicht mehr. Bitte wähle eine andere Seite."
+
+#: inc/class-404page-admin.php:157
+msgid "Page to be displayed as 404 page"
+msgstr "Seite, die als 404-Fehlerseite angezeigt werden soll"

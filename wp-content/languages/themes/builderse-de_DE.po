@@ -1,0 +1,70 @@
+# Translation of Themes - Builderse in German
+# This file is distributed under the same license as the Themes - Builderse package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-08 13:33:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Builderse\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Builderse - Construction And Architecture Theme is designed specially for Construction and Repairing Services. Whether you wish to build a site for your construction company, architects studio, property development firm, real estate & business websites. View the demo of Builderse Pro https://www.nayrathemes.com/demo/pro/?theme=builderse"
+msgstr "Builderse - Konstruktions- und Architektur-Theme wurde speziell für Bau- und Reparaturdienste entwickelt. Egal, ob du eine Website für dein Bauunternehmen, dein Architekturbüro, deine Bauträgerfirma oder deine Immobilien- und Geschäftswebsite erstellen möchtest. Sieh dir die Demo von Builderse Pro an https://www.nayrathemes.com/demo/pro/?theme=builderse"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Builderse"
+msgstr "Builderse"
+
+#: inc/customize/builderse-premium.php:36
+msgid "Show Some Love"
+msgstr "Sei freundlich"
+
+#: inc/customize/builderse-premium.php:32
+msgid "Free Vs Pro"
+msgstr "Free vs. Pro"
+
+#: inc/customize/builderse-premium.php:30
+msgid "Get Support"
+msgstr "Support erhalten"
+
+#: inc/customize/builderse-premium.php:28
+msgid "View Documentation"
+msgstr "Dokumentation lesen"
+
+#: inc/customize/builderse-premium.php:12
+#: inc/customize/builderse-premium.php:34
+msgid "Upgrade to Pro"
+msgstr "Upgrade auf Pro"
+
+#: template-parts/sections/section-header.php:260
+msgid "Image"
+msgstr "Bild"
+
+#: template-parts/sections/section-header.php:175
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com"
+msgstr "https://www.nayrathemes.com"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://www.nayrathemes.com/builderse-free/"
+msgstr "https://www.nayrathemes.com/builderse-free/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Nayra Themes"
+msgstr "Nayra Themes"

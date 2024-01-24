@@ -1,0 +1,538 @@
+/*--------------------------------------------------------------*/
+/*	Navbar
+/*--------------------------------------------------------------*/
+.main-navigation .menu>li .sub-menu>li.current-menu-ancestor>a,
+.main-navigation .menu>li .sub-menu>li.current-menu-parent>a,
+.main-navigation .menu .current-menu-ancestor>a,
+.main-navigation .menu .current-menu-parent>a,
+.main-navigation .menu .current-menu-item>a,
+.main-navigation .menu>li>a:hover {
+	color: #faa615 !important;
+}
+
+.main-navigation .menu>li .sub-menu>li>a:hover {
+    color: #fff !important;
+    background-color: #faa615;
+    text-decoration: none;
+}
+
+.sub-menu li.current-menu-item>a{
+	color: #fff;
+}
+
+.main-navigation .menu li.menu-item-has-children>a+.menu-arrow-button i {
+    color: #faa615;
+}
+
+.main-navigation .menu>li .sub-menu {
+    border-top: 3px solid #faa615;
+}
+
+.main-navigation .menu>li>.sub-menu li>.sub-menu {
+	border-top: 3px solid #faa615;
+}
+/*--------------------------------------------------------------*/
+/*	Cart Icon
+/*--------------------------------------------------------------*/
+
+.shopping-cart:hover > a { color: #faa615; }
+.shopping-cart > a .cart-total { background-color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Default Html Elements
+/*--------------------------------------------------------------*/
+
+a:hover, a:focus, a:active { color: #faa615 !important; }
+blockquote:before { color: #faa615; }
+
+button, button[disabled]:hover, 
+button[disabled]:focus, 
+input[type="button"], 
+input[type="button"][disabled]:hover, 
+input[type="button"][disabled]:focus, 
+input[type="reset"], 
+input[type="reset"][disabled]:hover, 
+input[type="reset"][disabled]:focus, 
+input[type="submit"], 
+input[type="submit"][disabled]:hover, 
+input[type="submit"][disabled]:focus {
+	background: #faa615;
+}
+
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #faa615;
+}
+/*--------------------------------------------------------------*/
+/*	Footer Copyrights - Site Info
+/*--------------------------------------------------------------*/
+
+.site-info a:hover, .site-info a:focus { color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Menu Css
+/*--------------------------------------------------------------*/
+.main-navigation .menu>li .dropdown-menu,
+.main-navigation .menu>li>.dropdown-menu li>.dropdown-menu {
+	border-top: 3px solid #faa615;
+}
+
+.dropdown-menu li.nav-item a{
+	color: #fff;
+}
+.dropdown-menu .nav-item{
+	background-color: #222;
+}
+
+.main-navigation .menu>li .dropdown-menu>li>a:active,
+.main-navigation .menu>li .dropdown-menu>li>a:focus,
+.main-navigation .menu>li .dropdown-menu>li>a:hover{
+	color: #faa615;
+    background-color: #585858;
+}
+
+
+@media screen and (max-width: 767px){
+	button.open-nav-btn{
+		border: 2px solid #faa615;
+	}
+	button.open-nav-btn i{
+		color: #faa615;
+	}
+	.slide-content{
+		border-top: 3px solid #faa615;
+	}
+	.slide-content .close-btn{
+		background-color: #222;
+	}
+}
+/*--------------------------------------------------------------*/
+/*	Header Top Info
+/*--------------------------------------------------------------*/
+
+.header-contact-info li i { color: #faa615; }
+.header-top .btn { background-color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Footer Copyright 
+/*--------------------------------------------------------------*/
+.site-info a:hover,
+.site-info a:focus {
+    color: #faa615 !important;
+}
+.site-footer ul li a:hover,
+.site-footer ul li a:focus {
+	color: #faa615 !important;
+}
+
+.site-footer .widget ul li:hover,
+.site-footer .widget ul li:focus,
+.site-footer .widget ul li a:hover,
+.site-footer .widget ul li a:focus{
+	color: #faa615 !important;
+}
+/*--------------------------------------------------------------*/
+/*	Owl Carousel Next Prev 
+/*--------------------------------------------------------------*/
+
+.owl-carousel .owl-prev:hover, 
+.owl-carousel .owl-next:hover { 
+	background-color: #faa615; 
+}
+
+#owl-main .owl-nav button:hover {
+    background: #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	Owl Carousel Paginations / Dots
+/*--------------------------------------------------------------*/
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(250 166 21);
+}
+.testimonial-one .owl-theme .owl-dots .owl-dot.active span, 
+.testimonial-one .owl-theme .owl-dots .owl-dot:hover span {
+	background: rgb(250 166 21);
+}
+#owl-portfolio .owl-nav button:hover {
+	background: rgb(250 166 21);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    box-shadow: 0 0 0 5px #faa6154d;
+}
+
+/*--------------------------------------------------------------*/
+/*	Section And Mixed Element Css
+/*--------------------------------------------------------------*/
+
+.divider-main::before { background: #faa615; }
+.theme-default { background-color: #faa615; }
+.text-default { color: #faa615 !important; }
+.btn-animation:before {	background-color: #fff; }
+
+/*--------------------------------------------------------------*/
+/*	Slider
+/*--------------------------------------------------------------*/
+.btn-skin {
+    background-color: #212121;
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%) !important;
+    border: 2px solid #21212187;
+	color: #fff !important;
+}
+
+.btn-skin:focus,
+.btn-skin:hover {
+	background-color: #faa615;
+    box-shadow: 0px 0px 5px 0px rgb(250 166 21) !important;
+    border: 2px solid #f8f8f8;
+	color: #fff !important;
+}
+
+.feature:nth-child(2) {
+    background: #faa615;
+}
+.scroll-down:hover {
+    background: #faa615;
+}
+/*--------------------------------------------------------------*/
+/*	Service Section
+/*--------------------------------------------------------------*/
+
+.icon-bg::after {
+    background: #faa615 !important;
+}
+.icon-bg {
+    color: #faa615 !important;
+}
+
+.service .more-link {
+    color: #faa615;
+}
+	
+/*--------------------------------------------------------------*/
+/*	Portfolio Section
+/*--------------------------------------------------------------*/
+	
+.portfolio-thumbnail i {
+    background: #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	Portfolio Single
+/*--------------------------------------------------------------*/
+
+.project-info-list li i {
+	color: #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	Section Header
+/*--------------------------------------------------------------*/
+
+.entry-header .entry-title > a:hover, 
+.entry-header .entry-title > a:focus, 
+.entry-header .entry-title > a:active { color: #faa615 !important; }
+
+/*--------------------------------------------------------------*/
+/*	Page Title Section
+/*--------------------------------------------------------------*/
+
+.page-breadcrumb > li a:hover, .page-breadcrumb > li a:focus, 
+.page-breadcrumb > li.active { color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Funfact Section
+/*--------------------------------------------------------------*/
+
+.funfact .funfact-icon {
+    color: #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	About Us
+/*--------------------------------------------------------------*/
+
+.about-img-holder img {
+    border-radius: 2px;
+    -webkit-box-shadow: -30px -30px 0px 0px #faa615;
+    -moz-box-shadow: -30px -30px 0px 0px #faa615;
+    box-shadow: -30px -30px 0px 0px #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	Team Section
+/*--------------------------------------------------------------*/
+
+.team-module:hover .team-caption { border-bottom: 2px solid #faa615 !important; }
+.team-overlay { background: rgba(<?php echo $r; ?>, <?php echo $g; ?>, <?php echo $b; ?>, 0.7); }
+
+/*--------------------------------------------------------------*/
+/*	Blog Section 
+/*--------------------------------------------------------------*/
+
+.inner-header .inner-title > a:hover,
+.inner-header .inner-title > a:focus,
+.inner-header .inner-title > a:active {
+    color: #faa615;
+}
+
+.more-link:hover,
+.more-link:focus {
+    color: #faa615;
+}
+
+.post .post-meta span:first-child {
+    color: #faa615;
+}
+
+.post-thumbnail .post-meta span:focus, 
+.post-thumbnail .post-meta span:hover {
+    color: #faa615;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------*/
+/*	Comments
+/*--------------------------------------------------------------*/
+
+.comments-area .form-submit .submit {
+	background-color: #faa615;
+}
+.comment-body .reply-btn a,
+.comment-body .edit-btn a {
+	background-color: #faa615;
+}
+.comments-area{
+	padding: 15px;
+}
+/*--------------------------------------------------------------*/
+/*	Sidebars & Widgets Section
+/*--------------------------------------------------------------*/
+
+.sidebar .widget .widget-title {
+    background: #faa615;
+}
+
+.theme-dark .site-footer .widget {
+    background: hsl(210deg 3% 14% / 73%);
+}
+
+.sidebar ul li a:hover {
+	color: #faa615 !important;
+}
+
+.widget .tagcloud a:hover {
+    background: #faa615 !important;
+}
+.widget .widget-title .rsswidget {
+	color: #fff;
+}
+.border-box:before {
+    background: #faa615;
+}
+.border-box:after {
+    background: #faa615;
+}
+
+.theme-dark .widget li a:hover {
+    color: #faa615;
+}
+
+/*--------------------------------------------------------------*/
+/*	404 Error Page
+/*--------------------------------------------------------------*/
+
+.error-404 i { color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Contact Page
+/*--------------------------------------------------------------*/
+
+.contact-area:before { 
+	border-top-color: #faa615; 
+	border-bottom-color: #faa615;
+} 
+.contact-area:after {
+	border-left-color: #faa615;
+	border-right-color: #faa615;
+} 
+.contact-area i.fa { color: #faa615; }
+
+/*--------------------------------------------------------------*/
+/*	Page Scroll Up
+/*--------------------------------------------------------------*/
+
+.page-scroll-up {
+	background-color: #faa615;	
+}
+.page-scroll-up:hover, .page-scroll-up:focus {
+	background-color: #faa615; 
+}
+
+.sponsors img:hover {
+	border: 1px solid #faa615 !important;
+}
+.team-caption .designation {
+    color: #faa615 !important;
+}
+.blog .post:before { 
+	background-color: #faa615 !important;
+}
+.service-2 .post:before {
+	background-color: #faa615 !important;
+}
+.service-one .post { 
+	border-bottom: 4px solid #faa615 !important;
+}
+.footer { 
+	border-top: 3px solid #faa615 !important;
+}
+.contact-info-module:hover .contact-icon { 
+	border: 3px solid #faa615 !important;
+}
+.team-avatar .team-social-icons a:hover {
+	color: #faa615 !important;
+}
+
+.testimonial-one .review:before {
+	background-color: #faa615 !important;
+}
+
+.team-module-two:before {
+	background-color: #faa615 !important;
+}
+
+.team-module-two .team-social-icons a:hover{
+	color: #faa615 !important;
+}
+figure.portfolio-snipone:before {
+    background-color:  #faa615 !important;
+	border-right: 1px solid  #faa615 !important;
+}
+figure.portfolio-snipone i:hover{
+	color:  #faa615 !important;
+}
+
+.portfolio-snipone a:hover{
+	color: #faa615 !important;
+}
+
+
+/*--------------------------------------------------------------*/
+/*	Woocommerce Custom CSS
+/*--------------------------------------------------------------*/
+.shop .add-to-cart a {
+    background-color: #faa615;
+	color: #fff;
+}
+.shop .product-sale {
+    color: #faa615;
+}
+.shop .inner-content ins {
+    background-color: #faa615;
+	color: #fff;
+}
+.woocommerce span.onsale {
+	color: #faa615;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #faa615;
+}
+.woocommerce .commentlist .star-rating {
+    color: #faa615;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+	background-color: #faa615;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    color: #faa615;
+    border: none;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	background-color: #faa615;
+}
+.woocommerce ul.products li.product .price ins{
+	 background: #faa615;
+}
+
+.theme-dark .product_meta span a:hover{
+	color: #faa615;
+}
+.theme-dark .woocommerce-product-rating a:hover{
+	color: #faa615;
+}
+.theme-dark.woocommerce div.product p.price ins,
+.theme-dark.woocommerce div.product span.price ins {
+	background: #faa615 !important;
+}
+
+
+p.stars .star-1,
+p.stars .star-2,
+p.stars .star-3,
+p.stars .star-4,
+p.stars .star-5 {
+	color: #faa615;
+}
+
+.widget #wp-calendar a {
+	color: #faa615;
+}
+
+.next.page-numbers,
+.prev.page-numbers{
+	background-color: #faa615;
+}
+.site-footer .widget_calendar .wp-calendar-nav span a:hover{
+	color: #faa615;
+}
+.site-footer .widget address > a:hover,
+.site-footer .widget address > a:focus, 
+.site-footer .widget address > p > a:hover, 
+.site-footer .widget address > p > a:focus, 
+.site-footer .widget .post .entry-title a:hover,
+.site-footer .widget .post .entry-title a:focus {
+	color: #faa615;
+}
+
+.tagcloud a:hover,
+.widget .tagcloud a:hover,
+.widget .wp-block-tag-cloud a:hover {
+    background: #faa615 !important;
+	border: 1px solid #faa615 !important;
+}
+
+.theme-dark .wp-calendar-nav-prev a:hover{ color: #faa615; }
+.widget #wp-calendar caption {
+    background-color: #faa615 !important;
+}
+
+.widget .tagcloud a:hover,
+.widget .wp-block-tag-cloud a:hover {
+	background: #faa615 !important;
+}
+
+/*Author CSS*/
+.blog-author img {
+    border: 2px solid #faa615;
+}
+.prev-post-title span,
+.next-post-title span{
+	color: #faa615;
+}
+.post-navigation i{
+	color: #faa615;
+}
+
+.pagination a:focus,
+.pagination a:hover,
+.pagination span.current {
+    color: #FFFFFF;
+    background-color: #faa615;
+}
+
+.nav-item:hover .nav-link {
+    color: #faa615 !important;
+}
